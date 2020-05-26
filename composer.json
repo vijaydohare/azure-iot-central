@@ -1,0 +1,21 @@
+{
+    "name": "vijaydohare/azure-iot-central",
+    "description": "This project provides a set of PHP client libraries that make it easy to access Microsoft Azure IoT Central APIs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vijay Dohare",
+            "email": "vijay.mits@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "curl/curl": "^2.3"
+    },
+	"autoload": {
+        "psr-0": {
+            "AzureIoTCentral": "src/"
+        }
+    }
+}
